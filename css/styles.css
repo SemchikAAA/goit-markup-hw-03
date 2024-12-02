@@ -36,6 +36,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* #endregion Basic setings */
 
@@ -47,7 +48,7 @@ img {
 
 .container-header {
   display: flex;
-  padding: 24px;
+  padding: 24px 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -238,8 +239,8 @@ img {
 }
 
 .our-team-item {
-  width: calc((100% - 72px) / 4);
   display: flex;
+  flex-basis: calc((100% - 72px) / 4);
   flex-direction: column;
   justify-content: center;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
