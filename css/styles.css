@@ -48,7 +48,6 @@ img {
 
 .container-header {
   display: flex;
-  padding: 24px 0;
   align-items: center;
   justify-content: space-between;
 }
@@ -79,6 +78,7 @@ img {
 }
 
 .nav-item {
+  padding: 24px 0;
 }
 
 .nav-item-link {
